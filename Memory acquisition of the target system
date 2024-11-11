@@ -1,0 +1,15 @@
+VBoxManage is the command-line interface to Oracle VM VirtualBox. With it, you can completely control Oracle VM VirtualBox from the command line of your host operating system. VBoxManage supports all the features that the graphical user interface gives you access to, but it supports a lot more than that. It exposes all the features of the virtualization engine, even those that cannot be accessed from the GUI.
+
+
+VBoxManage manual: https://www.virtualbox.org/manual/ch08.html
+
+
+
+Important for Windows users!
+
+To run VBoxManage.exe, you either need to navigate to the VirtualBox folder and run it from there or add the VirtualBox folder to your PATH environment variable:
+
+Folder: "C:\Program Files\Oracle\VirtualBox"
+or
+
+SET PATH=%PATH%; "C:\Program Files\Oracle\VirtualBox"
